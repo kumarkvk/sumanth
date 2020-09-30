@@ -1,0 +1,59 @@
+Summary,Issue key,Issue id,Parent id,Status,Created,Updated,Assignee,Description,Issue Type,Priority,Reporter
+"As a developer, I'd like to update story status during the sprint >> Click the Active sprints link at the top right of the screen to go to the Active sprints where the current Sprint's items can be updated",DP-9,10312,,To Do,02-07-2020,02-07-2020,,,Story,Medium,Admin
+"As a product owner, I'd like to include bugs, tasks and other issue types in my backlog >> Bugs like this one will also appear in your backlog but they are not normally estimated",DP-8,10311,,To Do,02-07-2020,02-07-2020,,"*Estimation of Bugs*
+
+Scrum teams do not normally apply story point estimates to bugs because bugs are considered to be part of the ongoing work that the team must deal with (i.e the overhead). If you view the story points completed in a sprint as a measure of progress, then bugs also have no value because they do not deliver anything additional to the customer. 
+
+However, you can apply estimates to bugs if you wish by configuring the ""Story Points"" field to apply to other Issue Types (by default it only applies to Stories and Epics). Some more information on this is in the [documentation|https://confluence.atlassian.com/display/GH/Story+Point].",Bug,Medium,Admin
+This is a sample task. Tasks are used to break down the steps to implement a user story,DP-7,10310,10309,To Do,02-07-2020,02-07-2020,Admin,,Sub-task,Medium,Admin
+"As a scrum master, I'd like to break stories down into tasks we can track during the sprint >> Try creating a task by clicking the Sub-Tasks tab in the Detail View on the right",DP-6,10309,,To Do,02-07-2020,02-07-2020,,"*Task Breakdown*
+
+Many teams choose to break down user stories into a set of tasks needed to implement the story. They then update the status of these tasks during a sprint to track progress. The completion of the last task signals the end of the story. 
+
+You can add sub-tasks to a story on the sub-task tab (folder icon) above.",Story,Medium,Admin
+"As a team, I'd like to commit to a set of stories to be completed in a sprint (or iteration) >> Click ""Create Sprint"" then drag the footer down to select issues for a sprint (you can't start a sprint at the moment because one is already active)",DP-5,10308,,To Do,02-07-2020,02-07-2020,,"*Starting a Sprint*
+
+During the Planning Meeting the team will examine the stories at the top of the backlog and determine which they can commit to completing during the coming sprint. Based on this information the Product Owner might break down stories into smaller stories, adjust story priorities or otherwise work with the team to define the ideal sprint outcome. When the sprint is started the stories are moved into the sprint backlog.",Story,Medium,Admin
+"As a team, I'd like to estimate the effort of a story in Story Points so we can understand the work remaining >> Try setting the Story Points for this story in the ""Estimate"" field",DP-4,10307,,To Do,02-07-2020,02-07-2020,,"This story is estimated at 5 Story Points (as shown in the ""Estimate"" field at the top right of the Detail View). 
+
+Try updating the Story Point estimate to 4 by clicking on the ""Estimate"" then typing.
+
+*Estimating using Story Points*
+
+Because the traditional process of estimating tasks in weeks or days is often wildly inaccurate, many Scrum teams estimate in Story Points instead. Story Points exist merely as a way to estimate a task's difficulty compared to some other task (for example, a 10-point story would probably take double the effort of a 5-point story). As teams mature with Scrum they tend to achieve a consistent number of Story Points from Sprint to Sprint -- this is termed the team's _velocity_. This allows the Product Owner to use the velocity to predict how many Sprints it will take to deliver parts of the backlog. 
+
+Many teams use Planning Poker to achieve consensus on Story Point estimates.
+
+*Using Other Estimation Units*
+
+You can configure JIRA Software to use time-based estimates if you wish. In the configuration for the board, on the ""Estimation"" tab, select ""Original Time Estimate"" as your Estimation Statistic. If you also wish to track the time used during the Sprint, select ""Remaining Estimate and Time Spent"" to enable Time Tracking in JIRA Software.",Story,Medium,Admin
+"As a product owner, I'd like to rank stories in the backlog so I can communicate the proposed implementation order >> Try dragging this story up above the previous story",DP-3,10306,,To Do,02-07-2020,02-07-2020,,"*About the Product Backlog*
+
+The backlog is the source of truth for the order of work to be completed. It is expected that the Product Owner will work with the team to make sure that the backlog represents the current approach to delivering the product. JIRA Software makes it easy to prioritise (rank) Stories by dragging them up and down the backlog.",Story,Medium,Admin
+"As a product owner, I'd like to express work in terms of actual user problems, aka User Stories, and place them in the backlog >> Try creating a new story with the ""+ Create Issue"" button (top right of screen)",DP-2,10305,,To Do,02-07-2020,02-07-2020,,"When you click ""+ Create Issue"" you will be asked for the correct project (select ""Demo Project"") and Issue Type (select ""Story"").
+
+*About User Stories*
+
+The Scrum methodology drops traditional software requirement statements in favour of real world problems expressed as User Stories. Stories describe the task a particular user is trying to achieve and its value. They are typically of the form ""As a (role) I want (something) so that (benefit)"". This approach focuses the team on the core user need rather than on implementation details. 
+
+Stories are ""placeholders for a conversation"" -- they do not need to be especially detailed since it is expected that the team will work together to resolve ambiguity as the story is developed. 
+
+Stories to be implemented in the future are stored in the Product Backlog. The backlog is ranked by the Product Owner so that the next items to be completed are at the top.",Story,Medium,Admin
+"As an Agile team, I'd like to learn about Scrum >> Click the ""DP-1"" link at the left of this row to see detail in the Description tab on the right",DP-1,10304,,To Do,02-07-2020,02-07-2020,,"*About Scrum*
+
+Scrum is an iterative approach to Agile software development. The methodology has been around since the 1980s but was popularised by Jeff Sutherland and Ken Schwaber. 
+
+Scrum breaks the development of a product down in to discrete iterations (termed Sprints) that each deliver functionality that could potentially be shipped to users.
+
+The Scrum Alliance offers an excellent [introduction to Scrum|http://www.scrumalliance.org/resources/47] that provides an overview of key Scrum concepts, stakeholders, processes and artefacts.",Story,Medium,Admin
+"As a user, I can find important items on the board by using the customisable ""Quick Filters"" above >> Try clicking the ""Only My Issues"" Quick Filter above",DP-14,10317,,To Do,01-07-2020,01-07-2020,Admin,"*Creating Quick Filters*
+
+You can add your own Quick Filters in the board configuration (select *Board > Configure*)",Story,Medium,Admin
+"When the last task is done, the story can be automatically closed >> Drag this task to ""Done"" too",DP-12,10315,10313,In Progress,29-06-2020,29-06-2020,,,Sub-task,Medium,Admin
+"Update task status by dragging and dropping from column to column >> Try dragging this task to ""Done""",DP-11,10314,10313,In Progress,28-06-2020,28-06-2020,Admin,,Sub-task,Medium,Admin
+"As a developer, I can update details on an item using the Detail View >> Click the ""DP-13"" link at the top of this card to open the detail view",DP-13,10316,,To Do,25-06-2020,25-06-2020,Admin,"*Editing using the Detail View*
+
+Many of the fields in the detail view can be inline edited by simply clicking on them. 
+
+For other fields you can open Quick Edit, select ""Edit"" from the cog drop-down.",Bug,Medium,Admin
+"As a developer, I can update story and task status with drag and drop (click the triangle at far left of this story to show sub-tasks)",DP-10,10313,,In Progress,25-06-2020,25-06-2020,Admin,,Story,Medium,Admin

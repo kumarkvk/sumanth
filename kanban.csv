@@ -1,0 +1,5 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Priority,Reporter,Creator,Created,Updated,Watchers
+fourth kanban,KAN-4,10303,Story,Backlog,KAN,Kanban,software,Admin,Medium,Admin,Admin,02 July 2020,02 July 2020,Admin
+third one kanban,KAN-3,10302,Story,Backlog,KAN,Kanban,software,Admin,Medium,Admin,Admin,02 July 2020,02 July 2020,Admin
+second isssuetype  in kanban,KAN-2,10301,Story,Backlog,KAN,Kanban,software,Admin,Medium,Admin,Admin,02 July 2020,02 July 2020,Admin
+kanban issuetype one,KAN-1,10300,Story,Backlog,KAN,Kanban,software,Admin,Medium,Admin,Admin,02 July 2020,02 July 2020,Admin
